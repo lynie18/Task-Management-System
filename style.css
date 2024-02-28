@@ -29,7 +29,7 @@ p{
     text-align: left;
     margin: 10px;
 }
-table {
+table{
     border-collapse: collapse;
     border: 3px solid black;
     width:80%;
@@ -39,4 +39,22 @@ th, td {
     border: 1px solid black;
     padding: 3px;
     text-align: center;
+}
+.button {
+    background-color: #39335e;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    margin: 4px 2px;
+    opacity: 1;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 12px;
+    margin-left: 10%;
+  }
+  .button:hover {
+    opacity: 0.7
 }

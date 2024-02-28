@@ -1,4 +1,3 @@
-
 <?php
 include "header.php";
 ?>
@@ -12,14 +11,12 @@ include "header.php";
 
 </head>
 <body>
-    <h2>TASK MANAGEMENT SYSTEM</h2>
-    <a href = "view_task.php">
-        <button>MANAGE TASK</button>
-    </a>
+    <h1>TASK MANAGEMENT SYSTEM</h1>
+    
     <br>
     <table class="table">
         <thead>
-            <tr style="background-color: white">
+            <tr style="background-color: #b5b0d4">
             <th scope="col">Title</th>
             <th scope="col">Description</th>
             <th scope="col" width="200">Priority</th>
@@ -54,7 +51,9 @@ include "header.php";
    
 ?>
         </tbody>
-    </table>
-    
+    </table> <br>
+    <a href = "view_task.php">
+        <button class="button">Manage Task</button>
+    </a>
 </body>
 </html>

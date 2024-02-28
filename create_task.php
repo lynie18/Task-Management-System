@@ -24,9 +24,9 @@
             <p>Due Date: </p>
             <input type="date" name="due_date"><br>
             <br>
-            <button type="submit" id="dropdown" name="create_button">Create Task</button> <br><br>  
-        </form>
-        <a href="view_task.php" type="button" id="btn"><button>Cancel</button> </a>
+            <button type="submit" name="create_button"  class="button">Create Task</button> <br><br>
+            
+        </form><a href="view_task.php" type="button"><button class="button">Cancel</button> </a>
   </div>
             
 </body>

@@ -7,34 +7,16 @@
 
     <title>Task Management</title>
 </head>
-<style>
-    body {
-        text-align: center;
-    }
-    table {
-        border-collapse: collapse;
-        border: 3px solid black;
-        width:80%;
-        margin-left: 10%;
-    }
-    th, td {
-        border: 1px solid black;
-        padding: 3px;
-        text-align: center;
-    }
-    button {
-        padding: 3px;
-        margin-left: 10px
-    }
-</style>
-
 <body>
-    <h1>List of Tasks</h1>
-    
+    <h1>LIST OF TASKS</h1> <br> 
     <hr>
+    <a href="index.php">
+        <button class="button">Back to home</button>
+    </a><br><br>
+
     <table class="table">
         <thead>
-            <tr style="background-color: yellowgreen">
+            <tr style="background-color: #b5b0d4">
             <th scope="col">Title</th>
             <th scope="col">Description</th>
             <th scope="col" width="200">Priority</th>
@@ -76,12 +58,10 @@
         </tbody>
     </table>
     <br><a href = "create_task.php">
-        <button>Add new task</button> <br><br>
+        <button class="button">Add new task</button> <br><br>
+        
     </a>
-    <a href="index.php">
-        <button>Back to home</button>
-    </a>
-
+    
 
     
 </body>
