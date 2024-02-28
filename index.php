@@ -1,4 +1,7 @@
 
+<?php
+include "header.php";
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,9 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel = "stylesheet" href = "style.css">
     <title>Home</title>
-    <?php
-include "header.php";
-?>
+
 </head>
 <body>
     <h2>TASK MANAGEMENT SYSTEM</h2>
@@ -18,7 +19,7 @@ include "header.php";
     <br>
     <table class="table">
         <thead>
-            <tr style="background-color: yellowgreen">
+            <tr style="background-color: white">
             <th scope="col">Title</th>
             <th scope="col">Description</th>
             <th scope="col" width="200">Priority</th>

@@ -1,5 +1,5 @@
 body{
-    background-color: rgba(181, 176, 212, 0.51);
+    background-color: #b5b0d482;
 }
 #form{
     background-color: white;
@@ -32,7 +32,8 @@ p{
 table {
     border-collapse: collapse;
     border: 3px solid black;
-    width: 100%;;
+    width:80%;
+    margin-left: 10%;
 }
 th, td {
     border: 1px solid black;
