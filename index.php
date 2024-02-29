@@ -54,6 +54,11 @@ include "header.php";
     </table> <br>
     <a href = "view_task.php">
         <button class="button">Manage Task</button>
-    </a>
+    </a> 
+
+    
 </body>
 </html>
+<?php
+include "footer.php";
+?>
